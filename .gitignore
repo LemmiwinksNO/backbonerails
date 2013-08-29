@@ -9,3 +9,15 @@
 /ep05/log/*.log
 /ep05/tmp
 /ep05/app/assets/javascripts/lib
+
+# Ignore bundler config.
+/rails4/.bundle
+
+# Ignore the default SQLite database.
+/rails4/db/*.sqlite3
+/rails4/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/rails4/log/*.log
+/rails4/tmp
+/rails4/app/assets/javascripts/lib
