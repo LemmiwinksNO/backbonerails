@@ -1,0 +1,11 @@
+# Ignore bundler config.
+/ep05/.bundle
+
+# Ignore the default SQLite database.
+/ep05/db/*.sqlite3
+/ep05/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/ep05/log/*.log
+/ep05/tmp
+/ep05/app/assets/javascripts/lib
