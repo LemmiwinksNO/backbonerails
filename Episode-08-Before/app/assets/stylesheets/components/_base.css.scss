@@ -1,0 +1,21 @@
+html, body                {  height: 100%;  }
+ul, ol, dl                {  list-style-type: none;  }
+#wrap                      {  height: auto !important; min-height: 100%; margin-bottom: -$pushHeight;  }
+#push                      {  height: $pushHeight;  }
+#banner                {  background-color: $primary-color; padding: 10px 0; position: relative; @include box-shadow(0 1px 2px #BBB);
+  h1, h2, h3, h4          {  color: $white; font-family: 'Open Sans', sans-serif; font-weight: 500; @include single-text-shadow(darken($primary-color, 5%), 1px, 2px, 0);  }
+  h1                      {  margin: 0;  }
+  h4                      {  font-weight: 300;  }
+  #page-icons              {  font-size: 600%; color: darken($primary-color, 5%); position: absolute; top: 5px; right: 15px;
+    i                      {  display: inline-block; @include single-text-shadow(lighten($primary-color, 5%), 0, 1px, 0);  }
+  }
+}
+#dialog-region            {  min-width: 600px;  }
+#main-region              {  overflow: auto;
+  section                  {  margin: 20px 0;  }
+}
+#two-column-container     {  margin: 30px 0; overflow: auto;
+  h3                      {  margin-top: 0; padding-left: .5em;  }
+}
+[data-wrapper].opacity    {  @include opacity(0.4);  }
+.loading-container        {  min-height: 200px;  }

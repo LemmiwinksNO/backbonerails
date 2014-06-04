@@ -1,1 +1,3 @@
-<a href="#"><%= @name %></a>
+<!-- Our linkTo helper, it does the following -->
+<!-- <a href="#<%= @url %>"><%= @name %></a> -->
+<%- @linkTo @name, @url %>

@@ -1,0 +1,3 @@
+<!-- @items happens when you pass a collection to an itemView -->
+<!-- @items is the array of user models -->
+Total Users: <%= @items.length %>

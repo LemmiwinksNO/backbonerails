@@ -1,0 +1,9 @@
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+/log
+/tmp
+/spec/tmp
+lib/generators
